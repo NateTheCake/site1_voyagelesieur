@@ -1,0 +1,196 @@
+/*----------------------------------------------------
+Base
+------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+/*----------------------------------------------------
+Generique
+------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    background-color: white;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------------------------
+Components
+------------------------------------------------------*/
+
+header{
+    background-color: #F26C25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo p{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline; 
+}
+
+/*SECTION BANNIERE*/
+
+.banniere{
+    background-color: #EEEEEE;
+}
+
+.banniere .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.banniere h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 7.2px;
+}
+
+/*SECTION TRANSPORT*/
+
+.titre-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #EEEEEE;
+    border: 1px solid #D0D0D0;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.titre-section h2{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.titre-section img{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.conteneur-transport{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.conteneur-transport h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteneur-transport p{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer .wrapper ul li a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.facebook a{
+    background-image: url("../image/facebooknoir.png");
+}
+
+.twitter a{
+    background-image: url("../image/twitternoir.png");
+}
+
+.linkedin a{
+    background-image: url("../image/linkedinnoir.png");
+}
+
+.pinterest a{
+    background-image: url("../image/pinterestnoir.png");
+}
+
+
+
+.facebook a:hover{
+    background-image: url("../image/facebookcouleur.png");
+}
+
+.twitter a:hover{
+    background-image: url("../image/twittercouleur.png");
+}
+
+.linkedin a:hover{
+    background-image: url("../image/linkedincouleur.png");
+}
+
+.pinterest a:hover{
+    background-image: url("../image/pinterestcouleur.png");
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+footer{
+    background-color: #171717;
+}
+footer h4{
+    color: white;
+    font-weight: 400;
+    height: 70px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
