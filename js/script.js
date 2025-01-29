@@ -1,11 +1,11 @@
-const btPlus = document.querySelector('.plus');
+const btPlus = document.querySelector('.js-plus');
 
-const colTransport = document.querySelector('.col-transports');
+const conteneurTransport = document.querySelector('.conteneur-transports');
 
 btPlus.addEventListener('click', fouvreferme);
 
 
 function fouvreferme(){
-    colTransport.classList.toggle('col-transports-invisible');
+    conteneurTransport.classList.toggle('conteneur-transports-invisible');
 };
 
