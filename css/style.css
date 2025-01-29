@@ -122,6 +122,10 @@ nav a:hover{
     gap: 60px;
 }
 
+.col-transports-invisible {
+    display: none;
+}
+
 .conteneur-transport h3{
     font-size: 36px;
     font-weight: 300;
@@ -180,7 +184,6 @@ footer .wrapper{
     align-items: center;
     height: 80px;
 }
-
 footer{
     background-color: #171717;
 }
