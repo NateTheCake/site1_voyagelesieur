@@ -122,9 +122,7 @@ nav a:hover{
     gap: 60px;
 }
 
-.conteneur-transports-invisible {
-    display: none;
-}
+
 
 .conteneur-transport h3{
     font-size: 36px;
@@ -196,4 +194,9 @@ footer ul{
     display: flex;
     list-style: none;
     gap: 20px;
+}
+
+
+.conteneur-transports-invisible{
+    display: none;
 }
